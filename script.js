@@ -71,13 +71,7 @@ const questions= [
       type: 'checkbox',
       message: 'anything else you would like to add to your readme?',
       name: 'stack',
-      choices: ['HTML', 'CSS', 'JavaScript', 'MySQL'],
-    },
-    {
-      type: 'list',
-      message: 'What is your preferred method of communication?',
-      name: 'contact',
-      choices: ['email', 'phone', 'telekinesis'],
+      choices: ['screenshots', 'license', 'questions'],
     },
     
   ])
