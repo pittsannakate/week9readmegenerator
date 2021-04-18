@@ -56,7 +56,7 @@ const questions= [
     },
     {
         type: 'input',
-        name: 'usage',
+        name: 'information',
         message: 'Please provide information for using your application. (Required)',
         validate: infoInput => {
             if (infoInput) {
@@ -75,13 +75,6 @@ const questions= [
     },
     
   ])
-  .then((data) => {
-    const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
-
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-      err ? console.log(err) : console.log('Success!')
-    );
-  });
   
   // TODO: Create a function to write README file
 function writeToFile(fileName, data,) {
