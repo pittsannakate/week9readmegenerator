@@ -1,0 +1,19 @@
+{
+  "name": "week9readmegenerator",
+  "version": "1.0.0",
+  "description": "readme generator",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pittsannakate/week9readmegenerator.git"
+  },
+  "author": "Annakate Pitts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pittsannakate/week9readmegenerator/issues"
+  },
+  "homepage": "https://github.com/pittsannakate/week9readmegenerator#readme"
+}
